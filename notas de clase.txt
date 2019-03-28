@@ -1,0 +1,16 @@
+-.Ruta para poder cambiar manualmente el puerto:
+
+C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\httpserver\apache2418vc11x86x180511135736\conf
+
+Debemos buscar Listen y ServerName.
+
+-. Revisar en la carpeta c: de easyphp eds-www
+
+Alli esdnde vamos a colocar lo que se vera en el servidor localhost.
+
+-. Esta es la ruta para acceder al php.ini que es donde podemos configurar el php.ini 
+y establecer cambios como de cuanto espacio de subida o de desarrollo de script si 
+lo consideramos poco o necesitamos mas.
+
+
+
