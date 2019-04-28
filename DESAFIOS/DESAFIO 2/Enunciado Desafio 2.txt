@@ -1,0 +1,28 @@
+https://www.dropbox.com/s/9gm23t8dhzjkspz/Balsamiq_MockuEnunciado de la tarea 2 de la sección 2846
+
+Realizar la siguiente actividad:
+ 
+NOTA: subir el proyecto comprimido en formato .rar o .zip
+
+1.- Crear un proyecto nuevo (en netbeans preferiblemente), asegurarse que al crear el proyecto se utilice la dirección http correcta, crear un archivo "php web page" nombrarlo "tabla_multiplicar.php", debe agregar un titulo (h1) a ese archivo en donde con php imprima el titulo "Tabla de Multiplicar". ademas cree la tabla de multiplicar dinamicamente. Hacer que la tabla de multiplicar quede asi:
+
+fíjense que es una tabla de 10x10. 
+ 
+01	02	03	04	05	06	07	08	09	10 
+02	04	06	08	10	12	14	16 	18	20 
+03	06 	09	12	15	18	21	24	27	30 
+04	08	12	16	20	24	28	32	36	40 
+05	10	15	20	25	30	35	40	45	50 
+06	12	18	24	30	36	42 	48	54	60
+07 	14	21	28	35	42	49	56	63	70 
+08	16	24	32	40	48	56	64	72	80 
+09	18	27	36	45	54	63	72	81	90 
+10	20	30	40	50	60 	70	80	90	100
+
+2.- Hacer que el valor a imprimir siempre tenga 2 dígitos por lo menos. Por ejemplo, el valor 2*4 es igual a 8, pero debe imprimirse el valor 08
+
+3.- Hacer que la primera fila y la primera columna de la tabla de multiplicar tengan el color de fondo amarillo (para que resalten).
+
+4.- Crear otro archivo "php web page" nombrarlo "alumnos.php", generar aleatoriamente la cantidad de alumnos(que serian la cantidad de filas) y la cantidad de parciales(que serian la cantidad de columnas) con la funcion rand(min,max) de php donde min sea 5 y max sea 10. ademas los valores de los parciales deben ser aleatorios con la funcion rand(min,max) con numeros entre 0 para min y 100 para max, debe mostrarlos en una tabla html.
+
+5.- Mostrar también el promedio de los parciales por alumno en una columna adicional, y ademas mostrar la columna del promedio del alumno reprobado en color rojo( teniendo en cuenta que un alumno reprueba con un promedio menor a 50).ps_3.5.8.exe?dl=0
