@@ -1,0 +1,13 @@
+Enunciado de la tarea 3 de la sección 2846
+Se necesita tener registro de las notas de 10 estudiantes para realizar las siguientes actividades:
+(uso de arreglos asociativos y ciclo foreach)
+
+1.- Hacer uso de arreglos en PHP para tener registro de los siguientes estudiantes: Maria, juan, Gustavo, Elias, Mariana, Jose, Miguel, Alberto, Luis, Pedro.
+
+2.- Recorrer el arreglo de nombre y en nuevo arreglo de tipo asociativo debe asignar como clave el nombre de cada estudiante y como valor una nota aleatoria rand(1,20), validando que la nota generada aleatoriamente no sea igual a la de otro alumno. (hacer uso de la funcion in_array).
+
+3.- Imprimir dinamicamente una tabla de 10 filas y 3 columnas los siguientes datos: Nombre de alumno, nota y un mensaje tomando en cuenta lo siguiente: -Si la nota es menor a 5 pts, el mensaje debe decir "Deficiente" -Si la nota esta entre 5 y 10 pts, el mensaje debe decir "Debes Mejorar" -Si la nota esta entre 10 y 15 pts, el mensaje debe decir "Regular", -Si la nota esta entre 15 y 20 pts, el mensaje debe decir "Muy bien, felicitaciones" (Hacer uso de cualquier ciclo, preferiblemente el ciclo foreach)
+
+4.- Debe calcular el promedio de notas de los alumnos de la sección. Imprimir el valor fuera de la tabla (hacer uso de la funcion array_sum para acumular las notas).
+
+5.- Se debe verificar los alumnos que tengan una nota mayor al promedio, almacenandolos en otro arreglo para luego imprimirlo fuera de la tabla.

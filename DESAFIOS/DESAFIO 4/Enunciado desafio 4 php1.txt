@@ -1,0 +1,12 @@
+Enunciado de la tarea 4 de la sección 2846
+realice los siguientes objetivos dentro de un proyecto PHP.
+
+1.- Crear un formulario de registro, donde se soliciten: - Cédula, nombre y apellido (en campos de texto) - Fecha de nacimiento. Debe contener 3 select: uno para dia, otro para mes y otro para año. Llenar los select de forma dinamica: dia con valores de 1 hasta 31, mes con valores de 1 hasta 12, año con valores del 2018 descendiendo hasta 1918. - Genero: hombre o mujer ( de tipo radio).
+
+2.- El formulario debe usar el metodo POST, enviando los datos a la misma pagina. En la misma pagina debe mostrar en una tabla los datos recibidos, mostrando la fecha de nacimiento en una sola columna de la tabla, usando el formato "dd/mm/aaaa". Hacer una validacion de los datos, si estan vacios (usar la funcion empty) debe mostrar un mensaje de error al lado del campo que no sea valido.
+
+3.- Agregar al formulario creado en el primer objetivo un campo de tipo checkbox , con el texto "los datos registrado son correctos". Al procesar los datos debe validar si selecciono el check para mostrar la tabla con los datos. De no haber seleccionado el check, debe mostrar de nuevo el formulario con los campos precargados con los valores que ya habia registrado el usuario, por ejemplo, si en el campo nombre ya habia escrito "juanito" antes de enviar el formulario, luego de enviar el formulario sin seleccionar el check, cuando muestre el formulario el campo debe tener el valor "juanito" para no volverlo a escribir.
+
+4.- Crear un nuevo PHP Web Page. Definir un arreglo de nombres inicializandolo con valores arbitrarios, por ejemplo: Maria, Juan, Gustavo, Elias, Mariana, Jose, Miguel, Alberto, Luis, Pedro. Crear una tabla dentro de un formulario con 2 columnas: una para mostrar los nombres y otra para registrar notas. Las filas se deben generar dinamicamente de acuerdo a la cantidad de elementos del arreglo nombres. Mostrar cada nombre en una celda y en el atributo value de un campo oculto (type="hidden"). En cada fila que se genere, para la columna nota debe mostrar un campo de texto para que el usuario ingrese una nota por cada nombre.
+
+5.- Enviar los datos como arreglos: un arreglo para notas y otro para los nombres almacenados en los campos ocultos.Los datos deben ser procesados en otra pagina, donde debe mostrar el promedio de notas de todos los alumnos y en una lista los alumnos con nota mayor al promedio.
