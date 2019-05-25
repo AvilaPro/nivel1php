@@ -1,9 +1,9 @@
-Enunciado de la tarea 1 de la secci髇 2846
-Nota: subir soluci髇 con todos los archivos y captures correspondientes en una carpeta comprimida .rar o .zip .
+Enunciado de la tarea 1 de la secci贸n 2846
+Nota: subir soluci贸n con todos los archivos y captures correspondientes en una carpeta comprimida .rar o .zip .
 
-recuerden que pueden consultarme las dudas al correo darwist@cadif1.com o por el foro de la secci髇, Exitos!
+recuerden que pueden consultarme las dudas al correo darwist@cadif1.com o por el foro de la secci贸n, Exitos!
 
-1.- Descargar e instalar easy php (hacer capture de pantalla donde se vea la instalaci髇 y la ejecuci髇 correcta del mismo)
+1.- Descargar e instalar easy php (hacer capture de pantalla donde se vea la instalaci贸n y la ejecuci贸n correcta del mismo)
 
 2.- Crear un archivo nuevo. usar los tag para un script php . colocar la funcion phpinfo(). Guardarlo con el nombre index.php en la carpeta raiz de apache. Recuerde que la carpeta de apache esta dentro de la carpeta de Easy Php en Archivos de programa, la carpeta se llama "eds-www" ( acceder desde el navegador y hacer capture de pantalla donde se vea la url y lo que imprime la funcion phpinfo()).
 
@@ -12,3 +12,5 @@ recuerden que pueden consultarme las dudas al correo darwist@cadif1.com o por el
 4.- Imprimir al final del documento el texto "Elaborado por Nombre Apellido en fecha XX/XX/XXX". El nombre y apellido debe ser el resultado de imprimir la variable que contiene el nombre completo.
 
 5.- Descargar e instalar netbeans. crear un proyecto nuevo (recuerden que al nombrar un proyecto si son varias palabras separar con un guion ejemplo: practica-php), alojar el proyecto en una carpeta diferente a la carpeta raiz de apache, seleccionar la opcion "copy files from sources folder to another location", ubicar la ruta de la carpeta raiz de apache y luego seleccionar la opcion "copy files on project open", copiar y pegar el archivo index.php con lo realizado en los objetivos anteriores dentro de este proyecto.
+
+Prueba
